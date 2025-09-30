@@ -28,7 +28,7 @@ The connector implementation consists of a Windows batch program that is execute
  
 The job definitions are entered as Windows jobs using the AWS EC2 job sub-type. When the job is scheduled by OpCon, the definitions are passed as arguments to the AWS EC2 Connector.
 
-![AWS EC2 Component Overview](/img/awsec2-component-overview.png)
+![AWS EC2 Component Overview](../static/img/awsec2-component-overview.png)
 
 The AWS EC2 Connector supports various functions that allow an OpCon task to interact with instances within the AWS environment. A connector provides a single connection to the AWS environment. 
 The user access key and secret key define the rights the connector has within the AWS environment. 
